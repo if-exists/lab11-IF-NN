@@ -68,9 +68,9 @@ class TestCalculator(unittest.TestCase):
         #    square_root(NUM)
         # Test basic function
         with self.assertRaises(ValueError):
-            square_root(-4, 7)
-        self.assertEqual(square_root(4, 0), 2)
-        self.assertEqual(square_root(9, 0), 3)
+            square_root(-4)
+        self.assertEqual(square_root(4), 2)
+        self.assertEqual(square_root(9), 3)
     #########################
 
 # Do not touch this
