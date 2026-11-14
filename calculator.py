@@ -1,3 +1,7 @@
+# https://github.com/if-exists/lab11-IF-NN/commits/main/
+# Partner 1: Isabella Frazao
+# Partner 2: Nhi Nguyen
+
 """
 calculator.py
 - Defines functions used to create a simple calculator
@@ -17,7 +21,7 @@ def hypotenuse(a, b):
 def add(a, b):
     return a + b
 
-def sub(a, b):
+def subtract(a, b):
     return a - b
 
 def mul(a, b):
